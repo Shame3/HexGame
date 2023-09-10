@@ -7,28 +7,28 @@ HexGame With Android
 
 系统框图：
 
-<img src=".\res\pipeline.png" style="zoom: 67%;" />
+<img src=".\res\pipeline.png" style="zoom: 50%;" />
 
 
 登录界面
 
-<img src=".\res\login.png" style="zoom:33%;" />
+<img src=".\res\login.png" style="zoom: 25%;" />
 
 棋盘界面：
 
-<img src=".\res\board.png" style="zoom:33%;" />
+<img src=".\res\board.png" style="zoom: 25%;" />
 
 游戏大厅界面：
 
-<img src=".\res\hall.png" style="zoom:33%;" />
+<img src=".\res\hall.png" style="zoom: 25%;" />
 
 AI对战界面：
 
-<img src=".\res\ai.png" style="zoom:33%;" />
+<img src=".\res\ai.png" style="zoom: 25%;" />
 
 联网对战：
 
-<img src=".\res\hex_fight.gif" style="zoom:33%;" />
+<img src=".\res\hex_fight.gif" style="zoom: 25%;" />
 
 
 
