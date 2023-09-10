@@ -12,19 +12,19 @@ HexGame With Android
 
 登录界面
 
-<img src=".\res\login.png" style="zoom: 25%;" />
+<img src=".\res\login.png" style="zoom: 10%;" />
 
 棋盘界面：
 
-<img src=".\res\board.png" style="zoom: 25%;" />
+<img src=".\res\board.png" style="zoom: 10%;" />
 
 游戏大厅界面：
 
-<img src=".\res\hall.png" style="zoom: 25%;" />
+<img src=".\res\hall.png" style="zoom: 10%;" />
 
 AI对战界面：
 
-<img src=".\res\ai.png" style="zoom: 25%;" />
+<img src=".\res\ai.png" style="zoom: 10%;" />
 
 联网对战：
 
