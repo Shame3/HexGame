@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android_client">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/hex1"
+        android:label="My Hex"
+        android:roundIcon="@mipmap/hex1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Android_client"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".AdminActivity"
+            android:theme="@style/Theme.Android_client.MyTheme">
+        </activity>
+
+        <activity
+            android:name=".DetailActivity"
+            android:theme="@style/Theme.Android_client.MyTheme" />
+        <activity
+            android:name=".AiActivity"
+            android:theme="@style/Theme.Android_client.MyTheme" />
+        <activity
+            android:name=".SingleGameActivity"
+            android:theme="@style/Theme.Android_client.MyTheme" />
+        <activity
+            android:name=".HexActivity"
+            android:theme="@style/Theme.Android_client.MyTheme" />
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/Theme.Android_client.MyTheme" />
+        <activity
+            android:name=".testActivity_1"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.Android_client.MyTheme" />
+        <activity
+            android:name=".GameActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.Android_client.MyTheme" />
+        <activity
+            android:name=".HallActivity"
+            android:theme="@style/Theme.Android_client.MyTheme" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.Android_client.MyTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

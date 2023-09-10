@@ -1,0 +1,15 @@
+
+落子：userId,gameId,indexNum;
+http://120.55.65.28:8080/step/2/8/1
+
+leaveTable:
+http://120.55.65.28:8080/chessTable/leaveTable?tableId=1&userId=1
+http://120.55.65.28:8080/chessTable/leaveTable?tableId=1&userId=2
+
+初始化：
+http://120.55.65.28:8080/chessTable/initAll
+
+启动： nohup java -jar blog.jar > system.log 2>&1 &
+终止： kill -9 
+删除： rm -f 
+目前端口：3088

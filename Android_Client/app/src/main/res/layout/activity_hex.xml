@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1F5FE"
+    android:orientation="vertical"
+    tools:context=".HexActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text="Hex Game"
+            android:textColor="#B3E5FC"
+            android:textSize="36sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#E1F5FE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/AI"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_shape"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="66dp"
+            android:layout_marginRight="66dp"
+            android:onClick="enterAi"
+            android:text="AI对战"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/EnterSingle"
+            android:background="@drawable/button_shape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="66dp"
+            android:layout_marginRight="66dp"
+            android:onClick="enterSingle"
+            android:textColor="@android:color/holo_blue_light"
+            android:text="单人游戏"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/Hall"
+            android:background="@drawable/button_shape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="66dp"
+            android:layout_marginRight="66dp"
+            android:onClick="enterHall"
+            android:textColor="@android:color/holo_blue_light"
+            android:text="游戏大厅"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/Detail"
+            android:background="@drawable/button_shape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="66dp"
+            android:layout_marginRight="66dp"
+            android:onClick="enterDetail"
+            android:textColor="@android:color/holo_blue_light"
+            android:text="个人信息"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/Leave"
+            android:background="@drawable/button_shape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="66dp"
+            android:layout_marginRight="66dp"
+            android:onClick="enterMain"
+            android:textColor="@android:color/holo_blue_light"
+            android:text="退出游戏"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/view1" />
+
+</LinearLayout>
